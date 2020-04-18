@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 // import { Container } from './styles';
 
-export default class Configuracoes extends Component {
+export default class Configuracao extends Component {
   render() {
-    return <div />;
+    return <div> Configuracao</div>;
   }
 }

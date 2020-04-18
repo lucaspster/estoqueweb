@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 // import { Container } from './styles';
 
-export default class Servico extends Component {
+export default class Servicos extends Component {
   render() {
-    return <div />;
+    return <div>Servicos</div>;
   }
 }

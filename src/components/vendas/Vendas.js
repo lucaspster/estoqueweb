@@ -4,6 +4,6 @@ import React, { Component } from "react";
 
 export default class Vendas extends Component {
   render() {
-    return <div />;
+    return <div>Vendas</div>;
   }
 }
