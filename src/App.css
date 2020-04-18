@@ -40,5 +40,9 @@
 #root {
   display: flex;
   background: red;
-  min-height: 100vh;  
+  min-height: 100vh;
+}
+#root > div > div:nth-child(1) {
+  width: 300px;
+  height: 100vh;
 }

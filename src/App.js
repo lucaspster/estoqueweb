@@ -14,11 +14,11 @@ import Menu from "./components/menu/Menu";
 
 function App() {
   return (
-    <div className="App">
-      <div style={{ float: "left", width: "500px", height: "100vh" }}>
+    <div className="App" style={{ display: "flex", "flex-direction": "row" }}>
+      <div style={{}}>
         <Menu />
       </div>
-      <div style={{ float: "right", width: "500px" }}>
+      <div style={{}}>
         <Clientes />
         <Despesas />
         <Financeiro />
